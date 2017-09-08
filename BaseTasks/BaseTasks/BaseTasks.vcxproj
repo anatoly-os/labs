@@ -114,6 +114,7 @@
     <ClCompile Include="src\FahrenheitCelsius.cpp" />
     <ClCompile Include="src\FizzBuzz.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ParanthesesChecker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BaseTasks.h" />
