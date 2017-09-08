@@ -5,9 +5,13 @@
 Если число делится на 5, вместо числа напечатать Buzz
 Если число делится и на 3 и на 5, вместо числа напечатать FizzBuzz
 */
+#include "BaseTasks.h"
+
 #include <iostream>
 
-int main(int argc, char* argv[])
+using namespace BaseTasks;
+
+int fizzBuzz(int argc, char* argv[])
 {
   const int maxNum = 100;
   const int fizzNum = 3;
