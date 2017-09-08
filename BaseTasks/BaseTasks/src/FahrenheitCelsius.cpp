@@ -11,8 +11,6 @@
 #include <assert.h>
 #include <string>
 
-using namespace BaseTasks;
-
 static float convertToCelsius(const float inF)
 {
 	return (inF - 32) * 5 / 9;
@@ -91,24 +89,21 @@ float processTemperatureInput()
   return 0.0f;
 }
 
-int fahrenheitCelsius(int argc, char* argv[])
+int BaseTasks::fahrenheitCelsius(int argc, char* argv[])
 {
-  while (true)
+  InputControl ctrlVal = processInput();
+  switch (ctrlVal)
   {
-    InputControl ctrlVal = processInput();
-    switch (ctrlVal)
-    {
-    case eFahrenheit:
-    {
-      std::cout << convertToCelsius(processTemperatureInput()) << std::endl;
-      break;
-    }
-    case eCelsius:
-    {
-      std::cout << convertToFahrenheit(processTemperatureInput()) << std::endl;
-      break;
-    }
-    }
+  case eFahrenheit:
+  {
+    std::cout << convertToCelsius(processTemperatureInput()) << std::endl;
+    break;
+  }
+  case eCelsius:
+  {
+    std::cout << convertToFahrenheit(processTemperatureInput()) << std::endl;
+    break;
+  }
   }
 	
 	return 0;

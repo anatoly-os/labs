@@ -9,9 +9,7 @@
 
 #include <iostream>
 
-using namespace BaseTasks;
-
-int fizzBuzz(int argc, char* argv[])
+int BaseTasks::fizzBuzz(int argc, char* argv[])
 {
   const int maxNum = 100;
   const int fizzNum = 3;

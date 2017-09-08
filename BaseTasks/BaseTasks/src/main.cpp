@@ -2,5 +2,5 @@
 
 int main(int argc, char* argv[])
 {
-  return BaseTasks::fizzBuzz(argc, argv);
+  return BaseTasks::fahrenheitCelsius(argc, argv);
 }
