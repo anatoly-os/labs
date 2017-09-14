@@ -2,5 +2,5 @@
 
 int main(int argc, char* argv[])
 {
-  return BaseTasks::parenthesesChecker(argc, argv);
+  return BaseTasks::polynomCalculator(argc, argv);
 }

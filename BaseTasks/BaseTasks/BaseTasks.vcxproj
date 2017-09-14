@@ -115,6 +115,8 @@
     <ClCompile Include="src\FizzBuzz.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ParanthesesChecker.cpp" />
+    <ClCompile Include="src\PlacementNewExperiments.cpp" />
+    <ClCompile Include="src\Polynom.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BaseTasks.h" />
